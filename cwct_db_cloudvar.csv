@@ -1,0 +1,140 @@
+﻿PartNumber / Unique Identifier,Source Document,Vendor,Variable Group,Variable Category,Variable Type,Vendor Specific Variable Name,Vendor Variable Description,Measurement Unit,Measurement Period,Description, Value 
+,,AWS,Core Variables,Compute,Per vCPU,,,Per vCPU,Hourly,,
+,,AWS,Core Variables,Compute,Per RAM (Gb),,,Per GB,Hourly,,
+GNTZT3S6E3P2FW6X.JRTCKXETXF.6YS6EN2CT7,,AWS,Core Variables,Block Storage,Block Tier 1 (Premium SSD),EBS - IO1,,Per GB,Monthly,, $0.17 
+5ES53GWNC5G54Q44.JRTCKXETXF.6YS6EN2CT7,,AWS,Core Variables,Block Storage,Block Tier 2 (Standard SSD),EBS - General Purpose (SSD),,Per GB,Monthly,, $0.15 
+FHQF8UD4V5RWYMZQ.JRTCKXETXF.6YS6EN2CT7,,AWS,Core Variables,Block Storage,Block Tier 3 (Standard HDD),EBS - Throughput Optimized (HDD),,Per GB,Monthly,, $0.07 
+,,AWS,Core Variables,Block Storage,Block Backup (SSD),None,,Per GB,Monthly,,  
+FHQF8UD4V5RWYMZQ.JRTCKXETXF.6YS6EN2CT7,,AWS,Core Variables,Block Storage,Block Backup (HDD),EBS - Snapshot,,Per GB,Monthly,, $0.07 
+,,AWS,Core Variables,Block Storage,Block Storage Blend,,,Per GB,Monthly,Standalone Calc, $0.11 
+5QVJMK36NJC9G6DC.JRTCKXETXF.D42MF2PVJS,,AWS,Core Variables,Object Storage,Standard Object ,S3 Standard Storage,,Per GB,Monthly,, $0.03 
+5QVJMK36NJC9G6DC.JRTCKXETXF.D42MF2PVJS,,AWS,Core Variables,Object Storage,Object Backup (Cold),S3 Infrequent Access,,Per GB,Monthly,, $0.02 
+USQRXKZKBTSQTMN2.JRTCKXETXF.6YS6EN2CT7,,AWS,Core Variables,Object Storage,Object Backup (Archive),S3 Glacier Storage,,Per GB,Monthly,, $0.01 
+,,AWS,Core Variables,Backup Storage,Prod,,,Per GB,Monthly,, $0.16 
+,,AWS,Core Variables,Backup Storage,Non-Prod,,,Per GB,Monthly,, $0.16 
+,,AWS,Core Variables,Backup Storage,Prod DB,,,Per GB,Monthly,, $0.16 
+,,AWS,Core Variables,Backup Storage,Non-Prod DB,,,Per GB,Monthly,, $0.16 
+,,AWS,Core Variables,External Vendor Tech Support,Monthly OSI Support,,,Per OSI,Monthly,,
+,,AWS,Core Variables,Internal Tech Support,Monthly OSI Support,,,Per OSI,Monthly,, $87.60 
+,,Azure,Core Variables,Compute,Per vCPU,,,Per vCPU,Hourly,,
+,,Azure,Core Variables,Compute,Per RAM (Gb),,,Per GB,Hourly,,
+N9H-00312,,Azure,Core Variables,Block Storage,Block Tier 1 (Premium SSD),,,Per GB,Monthly,, $0.17 
+AAD-26039,,Azure,Core Variables,Block Storage,Block Tier 2 (Standard SSD),,,Per GB,Monthly,, $0.11 
+N9H-00865,,Azure,Core Variables,Block Storage,Block Tier 3 (Standard HDD),,,Per GB,Monthly,, $0.08 
+N9H-00402,,Azure,Core Variables,Block Storage,Block Backup (SSD),,,Per GB,Monthly,, $0.15 
+N9H-00152,,Azure,Core Variables,Block Storage,Block Backup (HDD),,,Per GB,Monthly,, $0.08 
+,,Azure,Core Variables,Block Storage,Block Storage Blend,,,Per GB,Monthly,, $0.10 
+N9H-01048,,Azure,Core Variables,Object Storage,Object (S3 / Blob),,,Per GB,Monthly,, $0.02 
+N9H-01028,,Azure,Core Variables,Object Storage,Object Backup (Cold),,,Per GB,Monthly,, $0.02 
+AAA-97457,,Azure,Core Variables,Object Storage,Object Backup (Archive),,,Per GB,Monthly,, $0.00 
+,,Azure,Core Variables,Backup Storage,Prod,,,Per GB,Monthly,, $0.11 
+,,Azure,Core Variables,Backup Storage,Non-Prod,,,Per GB,Monthly,, $0.11 
+,,Azure,Core Variables,Backup Storage,Prod DB,,,Per GB,Monthly,, $0.11 
+,,Azure,Core Variables,Backup Storage,Non-Prod DB,,,Per GB,Monthly,, $0.11 
+,,Azure,Core Variables,External Vendor Tech Support,Monthly OSI Support,,,Per OSI,Monthly,, $-   
+,,Azure,Core Variables,Internal Tech Support,Monthly OSI Support2,,,Per OSI,Monthly,, $87.60 
+,,MacGov,Core Variables,Compute,Per vCPU,,,Per vCPU,Hourly,, None 
+,,MacGov,Core Variables,Compute,Per RAM (Gb),,,Per GB,Hourly,, $0.01 
+,,MacGov,Core Variables,Block Storage,Block Tier 1 (Premium SSD),,,Per GB,Monthly,, $0.50 
+,,MacGov,Core Variables,Block Storage,Block Tier 2 (Standard SSD),,,Per GB,Monthly,, $0.25 
+,,MacGov,Core Variables,Block Storage,Block Tier 3 (Standard HDD),,,Per GB,Monthly,, $0.10 
+,,MacGov,Core Variables,Block Storage,Block Backup (SSD),,,Per GB,Monthly,,
+,,MacGov,Core Variables,Block Storage,Block Backup (HDD),,,Per GB,Monthly,, $0.21 
+,,MacGov,Core Variables,Block Storage,Block Storage Blend,,,Per GB,Monthly,, $0.18 
+,,MacGov,Core Variables,Object Storage,Object (S3 / Blob),,,Per GB,Monthly,, $0.04 
+,,MacGov,Core Variables,Object Storage,Object Backup (Cold),,,Per GB,Monthly,,
+,,MacGov,Core Variables,Object Storage,Object Backup (Archive),,,Per GB,Monthly,,
+,,MacGov,Core Variables,Backup Storage,Prod,,,Per GB,Monthly,, $0.21 
+,,MacGov,Core Variables,Backup Storage,Non-Prod,,,Per GB,Monthly,, $0.21 
+,,MacGov,Core Variables,Backup Storage,Prod DB,,,Per GB,Monthly,, $0.21 
+,,MacGov,Core Variables,Backup Storage,Non-Prod DB,,,Per GB,Monthly,, $0.21 
+,,MacGov,Core Variables,External Vendor Tech Support,Monthly OSI Support,,,Per OSI,Monthly,, $-   
+,,MacGov,Core Variables,Internal Tech Support,Monthly OSI Support2,,,Per OSI,Monthly,, $87.60 
+,,DXC HCI,Core Variables,Compute,Per vCPU,,,Per vCPU,Hourly,, $0.00 
+,,DXC HCI,Core Variables,Compute,Per RAM (Gb),,,Per GB,Hourly,, $0.00 
+,,DXC HCI,Core Variables,Block Storage,Block Tier 1 (Premium SSD),,,Per GB,Monthly,,
+,,DXC HCI,Core Variables,Block Storage,Block Tier 2 (Standard SSD),,,Per GB,Monthly,, $0.06 
+,,DXC HCI,Core Variables,Block Storage,Block Tier 3 (Standard HDD),,,Per GB,Monthly,,
+,,DXC HCI,Core Variables,Block Storage,Block Backup (SSD),,,Per GB,Monthly,,
+,,DXC HCI,Core Variables,Block Storage,Block Backup (HDD),,,Per GB,Monthly,,
+,,DXC HCI,Core Variables,Block Storage,Block Storage Blend,,,Per GB,Monthly,, $0.06 
+,,DXC HCI,Core Variables,Object Storage,Object (S3 / Blob),,,Per GB,Monthly,, $0.06 
+,,DXC HCI,Core Variables,Object Storage,Object Backup (Cold),,,Per GB,Monthly,,
+,,DXC HCI,Core Variables,Object Storage,Object Backup (Archive),,,Per GB,Monthly,,
+,,DXC HCI,Core Variables,Backup Storage,Prod,,,Per GB,Monthly,, $0.15 
+,,DXC HCI,Core Variables,Backup Storage,Non-Prod,,,Per GB,Monthly,, $0.15 
+,,DXC HCI,Core Variables,Backup Storage,Prod DB,,,Per GB,Monthly,, $0.29 
+,,DXC HCI,Core Variables,Backup Storage,Non-Prod DB,,,Per GB,Monthly,, $0.27 
+,,DXC HCI,Core Variables,External Vendor Tech Support,Monthly OSI Support,,,Per OSI,Monthly,, $119.92 
+,,DXC HCI,Core Variables,Internal Tech Support,Monthly OSI Support2,,,Per OSI,Monthly,, $92.43 
+,,DXC Converged (L1-3),Core Variables,Compute,Per vCPU,,,Per vCPU,Hourly,, Matrix 
+,,DXC Converged (L1-3),Core Variables,Compute,Per RAM (Gb),,,Per GB,Hourly,, Matrix 
+,,DXC Converged (L1-3),Core Variables,Block Storage,Block Tier 1 (Premium SSD),,,Per GB,Monthly,,
+,,DXC Converged (L1-3),Core Variables,Block Storage,Block Tier 2 (Standard SSD),,,Per GB,Monthly,, $0.24 
+,,DXC Converged (L1-3),Core Variables,Block Storage,Block Tier 3 (Standard HDD),,,Per GB,Monthly,,
+,,DXC Converged (L1-3),Core Variables,Block Storage,Block Backup (SSD),,,Per GB,Monthly,,
+,,DXC Converged (L1-3),Core Variables,Block Storage,Block Backup (HDD),,,Per GB,Monthly,,
+,,DXC Converged (L1-3),Core Variables,Block Storage,Block Storage Blend,,,Per GB,Monthly,, $0.24 
+,,DXC Converged (L1-3),Core Variables,Object Storage,Object (S3 / Blob),,,Per GB,Monthly,, $0.24 
+,,DXC Converged (L1-3),Core Variables,Object Storage,Object Backup (Cold),,,Per GB,Monthly,,
+,,DXC Converged (L1-3),Core Variables,Object Storage,Object Backup (Archive),,,Per GB,Monthly,,
+,,DXC Converged (L1-3),Core Variables,Backup Storage,Prod,,,Per GB,Monthly,, $0.15 
+,,DXC Converged (L1-3),Core Variables,Backup Storage,Non-Prod,,,Per GB,Monthly,, $0.15 
+,,DXC Converged (L1-3),Core Variables,Backup Storage,Prod DB,,,Per GB,Monthly,, $0.29 
+,,DXC Converged (L1-3),Core Variables,Backup Storage,Non-Prod DB,,,Per GB,Monthly,, $0.27 
+,,DXC Converged (L1-3),Core Variables,External Vendor Tech Support,Monthly OSI Support,,,Per OSI,Monthly,, $154.75 
+,,DXC Converged (L1-3),Core Variables,Internal Tech Support,Monthly OSI Support2,,,Per OSI,Monthly,, $92.43 
+,,DXC Converged (L4-5),Core Variables,Compute,Per vCPU,,,Per vCPU,Hourly,, Matrix 
+,,DXC Converged (L4-5),Core Variables,Compute,Per RAM (Gb),,,Per GB,Hourly,, Matrix 
+,,DXC Converged (L4-5),Core Variables,Block Storage,Block Tier 1 (Premium SSD),,,Per GB,Monthly,,
+,,DXC Converged (L4-5),Core Variables,Block Storage,Block Tier 2 (Standard SSD),,,Per GB,Monthly,, $0.21 
+,,DXC Converged (L4-5),Core Variables,Block Storage,Block Tier 3 (Standard HDD),,,Per GB,Monthly,,
+,,DXC Converged (L4-5),Core Variables,Block Storage,Block Backup (SSD),,,Per GB,Monthly,,
+,,DXC Converged (L4-5),Core Variables,Block Storage,Block Backup (HDD),,,Per GB,Monthly,,
+,,DXC Converged (L4-5),Core Variables,Block Storage,Block Storage Blend,,,Per GB,Monthly,, $0.21 
+,,DXC Converged (L4-5),Core Variables,Object Storage,Object (S3 / Blob),,,Per GB,Monthly,, $0.21 
+,,DXC Converged (L4-5),Core Variables,Object Storage,Object Backup (Cold),,,Per GB,Monthly,,
+,,DXC Converged (L4-5),Core Variables,Object Storage,Object Backup (Archive),,,Per GB,Monthly,,
+,,DXC Converged (L4-5),Core Variables,Backup Storage,Prod,,,Per GB,Monthly,, $0.15 
+,,DXC Converged (L4-5),Core Variables,Backup Storage,Non-Prod,,,Per GB,Monthly,, $0.15 
+,,DXC Converged (L4-5),Core Variables,Backup Storage,Prod DB,,,Per GB,Monthly,, $0.29 
+,,DXC Converged (L4-5),Core Variables,Backup Storage,Non-Prod DB,,,Per GB,Monthly,, $0.27 
+,,DXC Converged (L4-5),Core Variables,External Vendor Tech Support,Monthly OSI Support,,,Per OSI,Monthly,, $182.29 
+,,DXC Converged (L4-5),Core Variables,Internal Tech Support,Monthly OSI Support2,,,Per OSI,Monthly,, $92.43 
+,,General,Other Variables,General,Network Charge - Spend Proportion,,Spend proportion for Network services,,,,5.00%
+,,General,Other Variables,General,Backup Retrieval Cost Multiplier,,Multiplier to account for backup retrieval costs,,,,200.00%
+,,General,Other Variables,General,Dedicated Pricing Multiplier for Azure,,Multiplier to account for difference in shared vs dedicated hosting,,,,104.70%
+,,General,Other Variables,General,Hourly to Monthly Multiplier,,hourly to monthly variable,,,,730.00
+,,General,Other Variables,General,Internal Support Cost per VM,,Internal support cost per cloud VM,,,, $87.60 
+,,General,Other Variables,General,RAM Proximity,,Used in 'Lookups | vCPU Matrix'  - determines dropdown range,,,,15.00%
+,,AWS,Other Variables,General,Discount | AWS,,Pricing discount for AWS Compute,,,,11.50%
+,,Azure,Other Variables,General,Discount | Azure,,Pricing discount for Azure Compute,,,,0.00%
+,,MacGov,Other Variables,General,Discount | MacGov,,Pricing discount for MacGov Compute,,,,10.00%
+,,DXC,Other Variables,General,Discount | DXC,,Pricing discount for DXC Compute,,,,0.00%
+,,General,Other Variables,General,Exchange Rate,,Azure Pricebook has both AUD and USD and it is assumed that the ATO is charged at the AUD Rate. This exchange rate is 1.374 (Nov 2019).,,,,1.374
+,,General,Other Variables,General,DXC Monthly OSI Divisor,,Total number of server instances across both mainframe and midrange. ,,,," 8,275 "
+,,General,Other Variables,General,Azure RHEL Licence Cost (1-4 vCPU),,Red Hat Enterprise Linux - 1-4 vCPU,,,, $0.066 
+,,General,Other Variables,General,Azure RHEL Licence Cost (5+ vCPU),,Red Hat Enterprise Linux - 5+ vCPU,,,, $0.144 
+,,General,Other Variables | DXC One-Off Charges,General,DBI Installation Uplift,,Database Installation Charge,Per Database,Monthly,, $162.25 
+,,General,Other Variables | DXC One-Off Charges,General,App Deploy PROD,,Server Deployment Charge,Per Server,Once,, $27.79 
+,,General,Other Variables | DXC One-Off Charges,General,App Deploy Non PROD,,Server Deployment Charge,Per Server,Once,, $71.13 
+,,General,Other Variables | DXC One-Off Charges,General,App Support PROD,,Server Deployment Charge,Per Server,Monthly,, $57.39 
+,,General,Other Variables | DXC One-Off Charges,General,End Point Protection,,per End Point Installed Server Instance,Per Server,Monthly,, $18.57 
+,,General,DXC On-Prem Physical Costs,General,L4-5_Available Cores,Available Cores,,,,,32.00
+,,General,DXC On-Prem Physical Costs,General,L4-5_Core Density,Core Density,,,,,4.00
+,,General,DXC On-Prem Physical Costs,General,L4-5_vCPUs per Core,vCPUs per Core,,,,,128.00
+,,General,DXC On-Prem Physical Costs,General,L4-5_Available Memory,Available Memory,,,,,819.20
+,,General,DXC On-Prem Physical Costs,General,L4-5_Blade Cost 19/20 Cost,Blade Cost 19/20 Cost,,,,, $586.26 
+,,General,DXC On-Prem Physical Costs,General,L1-3_Available Cores,Available Cores,,,,,32.00
+,,General,DXC On-Prem Physical Costs,General,L1-3_Core Density,Core Density,,,,,6.00
+,,General,DXC On-Prem Physical Costs,General,L1-3_vCPUs per Core,vCPUs per Core,,,,,192.00
+,,General,DXC On-Prem Physical Costs,General,L1-3_Available Memory,Available Memory,,,,,819.20
+,,General,DXC On-Prem Physical Costs,General,L1-3_Blade Cost 19/20 Cost,Blade Cost 19/20 Cost,,,,, $586.26 
+,,General,Backup Multiplier,General,Production,,,,,,0.5
+,,General,Backup Multiplier,General,Non-Production,,,,,,0.5
+,,General,Backup Multiplier,General,Production Database,,,,,,2.5
+,,General,Backup Multiplier,General,Non-Production Database,,,,,,2.5
+,,General,Dashboard Cost Multiplier,General,Hourly,,From Monthly to Hourly,,,, 730.00 
+,,General,Dashboard Cost Multiplier,General,Daily,,From Monthly to Daily,,,, 30.42 
+,,General,Dashboard Cost Multiplier,General,Monthly,,From Monthly to Monthly,,,, 1.00 
+,,General,Dashboard Cost Multiplier,General,Yearly,,From Monthly to Yearly,,,, 0.08 
